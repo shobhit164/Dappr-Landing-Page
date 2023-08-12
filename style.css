@@ -341,5 +341,5 @@ h2:hover{
 
 #name:hover, #email:hover, #phone:hover, #marks:hover{
     cursor:pointer;
-    color:red;
+    color:tomato;
 }
