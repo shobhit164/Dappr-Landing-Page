@@ -254,7 +254,11 @@ h2{
     color: #143565;
     font-size: 23px;
     letter-spacing: 1.2px;
-    margin-left: 4vw;
+    margin-left: 2vw;
+}
+
+#atul , #value{
+    margin: 0 0 0 2.5vw;
 }
 
 .button{
@@ -320,12 +324,12 @@ h2{
 }
 
 #bookmarks:hover{
-    color:red;
+    color:rgb(255, 140, 0);
     cursor:pointer;
 }
 
 #settings:hover{
-    color:red;
+    color:rgb(255, 140, 0);
     cursor:pointer;
 }
 
@@ -341,5 +345,10 @@ h2:hover{
 
 #name:hover, #email:hover, #phone:hover, #marks:hover{
     cursor:pointer;
-    color:red;
+    color:tomato;
+}
+
+#atul:hover, #value:hover, #number:hover, #total:hover{
+    cursor: pointer;
+    color:#483EFF;
 }
