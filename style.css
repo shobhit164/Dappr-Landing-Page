@@ -1,6 +1,6 @@
 body{
     height:185vh;
-    position: relative;
+    /* position: relative; */
 }
 
 *{
@@ -282,7 +282,11 @@ h2{
     position: fixed;
     top: 85.5vh;
     right: 2.8vw;
-    transition-duration: 800ms;
+    /* transition-duration: 800ms; */
+}
+
+.help_icon >a:hover img{
+    filter: brightness(0.4);
 }
 
 .set:hover{
@@ -300,6 +304,10 @@ h2{
     scale: 1.2;
     transition-duration: 800ms;
     
+}
+
+.social-icons>ul>li>a:hover img{
+    filter: brightness(0.4);
 }
 
 .flex-cards>div:hover{
