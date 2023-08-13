@@ -28,7 +28,11 @@ body{
     justify-content: space-evenly;
     
 }
-    
+
+.nav-menu .set > img{
+    margin-bottom: 0.3rem;
+}
+
 .search-box{
     display: flex;
     justify-content: space-around;
