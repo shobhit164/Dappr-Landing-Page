@@ -321,6 +321,11 @@ h2{
 
 }
 
+#first:hover, #second:hover, #third:hover , 
+#fourth:hover {
+    background-color:teal;
+}
+
 .logo > img:hover{
     cursor: pointer;
 }
