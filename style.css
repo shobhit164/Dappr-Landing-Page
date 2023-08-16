@@ -83,6 +83,7 @@ div > input{
     align-self: center;
     box-shadow: 10px 13px 21px rgba(0, 0, 0, 0.4);
     margin-left: 5vw;
+    overflow: hidden;
      
 }
 
@@ -324,6 +325,11 @@ h2{
 #first:hover, #second:hover, #third:hover , 
 #fourth:hover {
     background-color:teal;
+}
+
+.div-left:hover img{
+    scale:1.2;
+    transition: all ease 1.2s ;
 }
 
 .logo > img:hover{
