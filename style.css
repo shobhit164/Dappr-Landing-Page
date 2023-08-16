@@ -8,6 +8,15 @@ body{
     padding: 0;
 }
 
+.brand{
+    color: #FFF;
+    font-family: Delius Unicase;
+    font-size: 61.43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
 .nav-bar{
     background: #6F6AF7;
     display: flex;
@@ -332,8 +341,12 @@ h2{
     transition: all ease 1.2s ;
 }
 
-.logo > img:hover{
+.brand:hover{
     cursor: pointer;
+    color:#000;
+    scale:1.2;
+    transition-duration: 800ms;
+
 }
 
 .help_icon:hover{
